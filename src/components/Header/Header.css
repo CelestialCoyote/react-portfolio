@@ -1,0 +1,55 @@
+header {
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 7.0rem;
+}
+
+.header-container {
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+
+/*---------- CTA ----------*/
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+/*---------- HeaderSocials ----------*/
+
+.header-socials {
+    align-items: center;
+    bottom: 3.0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    left: 0;
+    position: absolute;
+}
+
+.header-socials::after {
+    background: var(--color-primary);
+    content: '';
+    height: 2.0rem;
+    width: 1px;
+}
+
+
+/*---------- ArthurDent ----------*/
+
+.arthur-dent {
+    background: linear-gradient(var(--color-primary), transparent);
+    border: 2px solid red;
+    border-radius: 20px;
+    height: 30.0rem;
+    left: calc(50% - 11.0rem);
+    margin-top: 4.0rem;
+    position: absolute;
+    width: 22.0rem;
+}
