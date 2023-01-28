@@ -1,0 +1,79 @@
+.services-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2.0rem;
+    min-width: 30%;
+}
+
+.service {
+    background: var(--color-bg-variant);
+    border: 1px solid var(--color-primary);
+    border-radius: 0 0 2.0rem 2.0rem;
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.service:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.service-head {
+    background: var(--color-primary);
+    border-radius: 0 0 2.0rem 2.0rem;
+    box-shadow: 0 2.0rem 1.0rem rgba(0, 0, 0, 0.1);
+    padding: 2.0rem;
+}
+
+.service-head h3 {
+    color: var(--color-bg);
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.service-list {
+    padding: 2.0rem;
+}
+
+.service-list li {
+    display: flex;
+    gap: 1.0rem;
+    margin-bottom: 0.8rem;
+}
+
+.service-list-icon {
+    color: var(--color-primary);
+    margin: 0;
+    margin-top: 2px;
+    padding: 0;
+}
+
+.service-list p {
+    font-size: 0.9rem;
+}
+
+
+/*---------- Media Queries (Medium Devices) ----------*/
+
+@media screen and (max-width: 1024px) {
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service {
+        flex-basis: 40%;
+        height: auto;
+    }
+}
+
+
+/*---------- Media Queries (Small Devices) ----------*/
+
+@media screen and (max-width: 600px) {
+    .services-container {
+        flex-direction: column;
+    }
+}
