@@ -2,22 +2,25 @@ header {
     height: 100vh;
     overflow: hidden;
     padding-top: 7.0rem;
+    width: 100%;
 }
 
 .header-container {
     height: 100%;
+    margin: 0 auto;
     position: relative;
     text-align: center;
+    width: var(--container-width-lg);
 }
 
 
 /*---------- CTA ----------*/
 
 .cta {
-    margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+    margin-top: 2.5rem;
 }
 
 

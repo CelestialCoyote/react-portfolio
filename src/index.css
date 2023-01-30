@@ -32,12 +32,11 @@ body {
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
-    --container-width-md: 86%;
+    --container-width-md: 85%;
     --container-width-sm: 90%;
 }
 
 .app {
-    align-items: center;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -51,8 +50,8 @@ body {
 /*---------- General Styles ----------*/
 
 .container {
-    margin: 0 auto;
-    width: var(--container-width-lg);
+    /*margin: 0 auto;
+    width: var(--container-width-lg);*/
 }
 
 h1,

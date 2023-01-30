@@ -1,5 +1,6 @@
 {
-    "name": "react18-start-project-with-roter",
+    "name": "react-portfolio-website",
+    "homepage": "http://hostURL.com",
     "version": "1.0.0",
     "description": "React18 start project with webpack and react-router.",
     "author": "CelestialCoyote",
