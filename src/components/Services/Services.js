@@ -9,7 +9,7 @@ const Services = () => {
             <h5>What I Offer</h5>
             <h2>Services</h2>
 
-            <div className='container services-container'>
+            <div className='services-container'>
                 <article className='service'>
                     <div className='service-head'>
                         <h3>UI/ UX Design</h3>
