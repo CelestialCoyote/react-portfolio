@@ -1,15 +1,19 @@
 .about-container {
-    display: grid;
-    gap: 15%;
-    grid-template-columns: 35% 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 4.0em;
+    margin: 0 auto;
+    width: var(--container-width-lg);
 }
 
 .about-me {
     aspect-ratio: 1/1;
+    align-items: center;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     border-radius: 2.0rem;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
 
@@ -76,12 +80,11 @@
 
 @media screen and (max-width: 1024px) {
     .about-container {
-        display: flex;
         flex-direction: column;
     }
 
     .about-me {
-        margin: 2.0rem auto 4.0rem;
+        margin: 2.0rem auto;
         width: 50%;
     }
 
