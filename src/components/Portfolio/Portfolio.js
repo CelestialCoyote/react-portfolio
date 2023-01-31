@@ -1,6 +1,10 @@
 import React from 'react';
-import Project1 from '../../assets/PanGalacticGargleBlaster.png';
-import Project2 from '../../assets/InfiniteImprobabilityDrive.png';
+import Project1 from '../../assets/Project1_PanGalacticGargleBlaster.png';
+import Project2 from '../../assets/Project2_InfiniteImprobabilityDrive.png';
+import Project3 from '../../assets/Project3_VogonPoetry.png';
+import Project4 from '../../assets/Project4_PlanetFactory.png';
+import Project5 from '../../assets/Project5_DeepThought.png';
+import Project6 from '../../assets/Project6_BabelFish.png';
 import './Portfolio.css';
 
 
@@ -21,29 +25,29 @@ const data = [
     },
     {
         id: 3,
-        image: Project1,
-        title: 'Pan Galactic Gargle Blaster',
+        image: Project3,
+        title: 'Vogon Poetry',
         github: 'http://github.com',
         demo: 'https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy'
     },
     {
         id: 4,
-        image: Project2,
-        title: 'Infinite Improbability Drive',
+        image: Project4,
+        title: 'Planet Factory',
         github: 'http://github.com',
         demo: 'https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy'
     },
     {
         id: 5,
-        image: Project1,
-        title: 'Pan Galactic Gargle Blaster',
+        image: Project5,
+        title: 'Deep Thought',
         github: 'http://github.com',
         demo: 'https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy'
     },
     {
         id: 6,
-        image: Project2,
-        title: 'Infinite Improbability Drive',
+        image: Project6,
+        title: 'Babel Fish',
         github: 'http://github.com',
         demo: 'https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy'
     },
