@@ -11,7 +11,7 @@
     aspect-ratio: 1/1;
     align-items: center;
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-    border-radius: 2.0rem;
+    border-radius: 2.0em;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -32,7 +32,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1.0rem;
+    gap: 1.0em;
     justify-content: space-between;
 }
 
@@ -40,10 +40,10 @@
     align-items: center;
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 1.0rem;
+    border-radius: 1.0em;
     display: flex;
     flex-direction: column;
-    padding: 1.0rem;
+    padding: 1.0em;
     text-align: center;
     transition: var(--transition);
     width: 25%;
@@ -58,7 +58,7 @@
 .about-icon {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1.0rem;
+    margin-bottom: 1.0em;
 }
 
 .about-card h5 {
@@ -72,7 +72,7 @@
 
 .about-content p {
     color: var(--color-light);
-    margin: 2.0rem 0 2.6rem;
+    margin: 2.0em 0 2.5em;
 }
 
 
@@ -84,12 +84,12 @@
     }
 
     .about-me {
-        margin: 2.0rem auto;
+        margin: 2.0em auto;
         width: 50%;
     }
 
     .about-content p {
-        margin: 1.0rem 0 1.5rem;
+        margin: 1.0em 0 1.5em;
     }
 }
 
@@ -98,7 +98,7 @@
 
 @media screen and (max-width: 600px) {
     .about-me {
-        margin: 0 auto 3.0rem;
+        margin: 0 auto 3.0em;
         width: 65%;
     }
 
@@ -117,6 +117,6 @@
     }
 
     .about-content p {
-        margin: 1.0rem 0 1.5rem;
+        margin: 1.0em 0 1.5em;
     }
 }

@@ -1,7 +1,7 @@
 header {
+    display: flex;
     height: 100vh;
-    overflow: hidden;
-    padding-top: 7.0rem;
+    padding-top: 7.0em;
     width: 100%;
 }
 
@@ -18,9 +18,9 @@ header {
 
 .cta {
     display: flex;
-    gap: 1.2rem;
+    gap: 1.2em;
     justify-content: center;
-    margin-top: 2.5rem;
+    margin: 2.5em 0;
 }
 
 
@@ -28,10 +28,10 @@ header {
 
 .header-socials {
     align-items: center;
-    bottom: 3.0rem;
+    bottom: 2.5em;
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.8em;
     left: 0;
     position: absolute;
 }
@@ -39,7 +39,7 @@ header {
 .header-socials::after {
     background: var(--color-primary);
     content: '';
-    height: 2.0rem;
+    height: 2.0em;
     width: 1px;
 }
 
@@ -48,32 +48,21 @@ header {
 
 .arthur-dent {
     background: linear-gradient(var(--color-primary), transparent);
-    height: 30.0rem;
-    left: calc(50% - 11.0rem);
-    margin-top: 4.0rem;
-    position: absolute;
-    width: 22.0rem;
+    height: auto;
+    margin: 0 auto;
+    width: 20.0em;
 }
 
 
-/*---------- ArthurDent ----------*/
+/*---------- Scroll Down ----------*/
 
 .scroll-down {
     position: absolute;
-    right: -2.3rem;
-    bottom: 5.0rem;
+    right: -2.3em;
+    bottom: 5.0em;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
-}
-
-
-/*---------- Media Queries (Medium Devices) ----------*/
-
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
 }
 
 
@@ -84,8 +73,8 @@ header {
         height: 100vh;
     }
 
-    .header-socials,
-    .scroll-down {
-        display: none;
+    .arthur-dent {
+        margin-top: 7.0em;
+        width: 15.0em;
     }
 }

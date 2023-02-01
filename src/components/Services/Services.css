@@ -23,8 +23,8 @@
 .service-head {
     background: var(--color-primary);
     border-radius: 0 0 2.0em 2.0em;
-    box-shadow: 0 2.0rem 1.0rem rgba(0, 0, 0, 0.1);
-    padding: 2.0rem;
+    box-shadow: 0 2.0em 1.0em rgba(0, 0, 0, 0.1);
+    padding: 2.0em;
 }
 
 .service-head h3 {

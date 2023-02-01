@@ -8,7 +8,7 @@ const Footer = () => {
         <footer>
             <a href='#' className='footer-logo'>Logo</a>
 
-            <ul className='permalinks'>
+            {/*<ul className='permalinks'>
                 <li><a href='#'>Home</a></li>
                 <li><a href='#about'>About</a></li>
                 <li><a href='#experience'>Experience</a></li>
@@ -16,7 +16,17 @@ const Footer = () => {
                 <li><a href='#portfolio'>Portfolio</a></li>
                 <li><a href='#testimonials'>Testimonials</a></li>
                 <li><a href='#contact'>Contact</a></li>
-            </ul>
+            </ul>*/}
+
+            <div className='permalinks'>
+                <a href='#'>Home</a>
+                <a href='#about'>About</a>
+                <a href='#experience'>Experience</a>
+                <a href='#services'>Services</a>
+                <a href='#portfolio'>Portfolio</a>
+                <a href='#testimonials'>Testimonials</a>
+                <a href='#contact'>Contact</a>
+            </div>
 
             <div className='footer-socials'>
                 <a href='https://facebook.com'><FaFacebookSquare /></a>

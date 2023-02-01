@@ -1,8 +1,9 @@
 footer {
+    border: 1px solid white;
     background: var(--color-primary);
     font-size: 0.9rem;
-    margin-top: 7.0rem;
-    padding: 3.0rem 0;
+    margin-top: 7.0em;
+    padding: 2.0em 0;
     text-align: center;
 }
 
@@ -14,31 +15,30 @@ footer a {
     display: inline-block;
     font-size: 2.0rem;
     font-weight: 500;
-    margin-bottom: 2.0rem;
+    margin-bottom: 2.0em;
 }
 
 .permalinks {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 2.0rem;
-    margin: 0 auto 3.0rem;
+    gap: 2.0em;
+    margin-bottom: 2.0em;
 }
 
 .footer-socials {
     display: flex;
     justify-content: center;
-    gap: 1.0rem;
-    margin-bottom: 4.0rem;
+    gap: 1.0em;
+    margin-bottom: 2.0em;
 }
 
 .footer-socials a {
     background: var(--color-bg);
     border: 1px solid transparent;
-    border-radius: 0.7rem;
+    border-radius: 0.7em;
     color: var(--color-white);
     display: flex;
-    padding: 0.8rem;
+    padding: 0.8em;
 }
 
 .footer-socials a:hover {
@@ -49,7 +49,7 @@ footer a {
 
 .footer-copyright {
     color: var(--color-bg);
-    margin-bottom: 4.0rem;
+    margin-bottom: 8.0em;
 }
 
 
@@ -58,10 +58,10 @@ footer a {
 @media screen and (max-width: 600px) {
     .permalinks {
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1.5em;
     }
 
     .footer-socials {
-        margin-bottom: 2.6rem;
+        margin-bottom: 2.5em;
     }
 }
