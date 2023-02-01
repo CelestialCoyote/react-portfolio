@@ -59,7 +59,7 @@ const Portfolio = () => {
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
 
-            <div className='container portfolio-container'>
+            <div className='portfolio-container'>
                 {
                     data.map(({ id, image, title, github, demo }) => {
                         return (

@@ -40,7 +40,7 @@ const Testimonials = () => {
             <h2>Testimonials</h2>
 
             <Swiper
-                className='container testimonials-container'
+                className='testimonials-container'
                 modules={[ Pagination ]}
                 spaceBetween={40}
                 slidesPerView={1}

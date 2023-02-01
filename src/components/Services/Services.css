@@ -1,15 +1,16 @@
 .services-container {
     display: flex;
     flex-direction: row;
-    gap: 2.0rem;
-    min-width: 30%;margin: 0 auto;
+    gap: 2.0em;
+    margin: 0 auto;
+    min-width: 30%;
     width: var(--container-width-lg);
 }
 
 .service {
     background: var(--color-bg-variant);
     border: 1px solid var(--color-primary);
-    border-radius: 0 0 2.0rem 2.0rem;
+    border-radius: 0 0 2.0em 2.0em;
     transition: var(--transition);
 }
 
@@ -21,7 +22,7 @@
 
 .service-head {
     background: var(--color-primary);
-    border-radius: 0 0 2.0rem 2.0rem;
+    border-radius: 0 0 2.0em 2.0em;
     box-shadow: 0 2.0rem 1.0rem rgba(0, 0, 0, 0.1);
     padding: 2.0rem;
 }
@@ -33,13 +34,13 @@
 }
 
 .service-list {
-    padding: 2.0rem;
+    padding: 2.0em;
 }
 
 .service-list li {
     display: flex;
-    gap: 1.0rem;
-    margin-bottom: 0.8rem;
+    gap: 1.0em;
+    margin-bottom: 0.8em;
 }
 
 .service-list-icon {
